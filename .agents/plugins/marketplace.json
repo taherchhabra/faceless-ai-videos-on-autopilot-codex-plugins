@@ -1,0 +1,56 @@
+{
+  "name": "[TODO: marketplace-name]",
+  "interface": {
+    "displayName": "[TODO: Marketplace Display Name]"
+  },
+  "plugins": [
+    {
+      "name": "replicate-model-runner",
+      "source": {
+        "source": "local",
+        "path": "./plugins/replicate-model-runner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "prunaai-p-image-generator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prunaai-p-image-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "prunaai-p-image-edit-generator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prunaai-p-image-edit-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "prunaai-p-video-generator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prunaai-p-video-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
