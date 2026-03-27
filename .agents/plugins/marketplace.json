@@ -1,7 +1,7 @@
 {
-  "name": "[TODO: marketplace-name]",
+  "name": "faceless-ai-videos-on-autopilot-plugins",
   "interface": {
-    "displayName": "[TODO: Marketplace Display Name]"
+    "displayName": "Faceless AI Video Plugins"
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Coding"
     },
     {
       "name": "prunaai-p-image-generator",
@@ -26,7 +26,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Coding"
     },
     {
       "name": "prunaai-p-image-edit-generator",
@@ -38,7 +38,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Coding"
     },
     {
       "name": "prunaai-p-video-generator",
@@ -50,7 +50,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Coding"
     }
   ]
 }
