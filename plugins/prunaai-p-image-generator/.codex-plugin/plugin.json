@@ -1,0 +1,43 @@
+{
+  "name": "prunaai-p-image-generator",
+  "version": "0.1.0",
+  "description": "Generate images with prunaai/p-image from a local script and save the outputs in the workspace.",
+  "author": {
+    "name": "Local Workspace",
+    "url": "https://replicate.com/prunaai/p-image"
+  },
+  "homepage": "https://replicate.com/prunaai/p-image",
+  "repository": "https://replicate.com/prunaai/p-image",
+  "license": "MIT",
+  "keywords": [
+    "replicate",
+    "image-generation",
+    "prunaai",
+    "p-image",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "P-Image Generator",
+    "shortDescription": "Generate images with prunaai/p-image",
+    "longDescription": "Use the bundled local script to generate a single image with the prunaai/p-image model on Replicate and save both the image and prediction metadata into the workspace.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://replicate.com/prunaai/p-image",
+    "privacyPolicyURL": "https://replicate.com/privacy",
+    "termsOfServiceURL": "https://replicate.com/terms",
+    "defaultPrompt": [
+      "Generate a cinematic tiger circus image in 16:9",
+      "Create a photoreal street portrait with p-image",
+      "Make a vertical poster image and save it locally"
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/replicate-small.svg",
+    "logo": "./assets/replicate-logo.svg",
+    "screenshots": []
+  }
+}

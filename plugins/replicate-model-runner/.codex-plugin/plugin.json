@@ -1,0 +1,37 @@
+{
+  "name": "replicate-model-runner",
+  "version": "0.1.0",
+  "description": "Search public Replicate models, then run any chosen model from a local script and save outputs locally.",
+  "author": {
+    "name": "Local Workspace",
+    "url": "https://replicate.com"
+  },
+  "homepage": "https://replicate.com/docs/reference/http",
+  "repository": "https://replicate.com/docs/reference/http",
+  "license": "MIT",
+  "keywords": ["replicate", "image-generation", "video-generation", "ai-models", "automation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Replicate Model Runner",
+    "shortDescription": "Search Replicate models and run them locally",
+    "longDescription": "Use the bundled local scripts to search public Replicate models for a task, then execute any chosen model from a model slug plus JSON input. Generated files are saved into the workspace with the raw prediction payload for reproducibility.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://replicate.com",
+    "privacyPolicyURL": "https://replicate.com/privacy",
+    "termsOfServiceURL": "https://replicate.com/terms",
+    "defaultPrompt": [
+      "Search Replicate for fast image models with strong text rendering",
+      "Run black-forest-labs/flux-schnell with this prompt and save the image",
+      "Run prunaai/p-image with this JSON input and save the output files"
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/replicate-small.svg",
+    "logo": "./assets/replicate-logo.svg",
+    "screenshots": []
+  }
+}

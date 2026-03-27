@@ -1,0 +1,45 @@
+{
+  "name": "prunaai-p-video-generator",
+  "version": "0.1.0",
+  "description": "Generate videos with prunaai/p-video from a local script and save the outputs in the workspace.",
+  "author": {
+    "name": "Local Workspace",
+    "url": "https://replicate.com/prunaai/p-video"
+  },
+  "homepage": "https://replicate.com/prunaai/p-video",
+  "repository": "https://replicate.com/prunaai/p-video",
+  "license": "MIT",
+  "keywords": [
+    "replicate",
+    "video-generation",
+    "image-to-video",
+    "audio-to-video",
+    "prunaai",
+    "p-video",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "P-Video Generator",
+    "shortDescription": "Generate videos with prunaai/p-video",
+    "longDescription": "Use the bundled local script to generate a video with the prunaai/p-video model on Replicate and save both the video and prediction metadata into the workspace. Supports text-to-video, optional image-to-video, and optional audio-to-video inputs.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://replicate.com/prunaai/p-video",
+    "privacyPolicyURL": "https://replicate.com/privacy",
+    "termsOfServiceURL": "https://replicate.com/terms",
+    "defaultPrompt": [
+      "Generate a 5-second cinematic stunt video in 16:9",
+      "Animate a product photo into a short ad clip with p-video",
+      "Create a vertical social video and save it locally"
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/replicate-small.svg",
+    "logo": "./assets/replicate-logo.svg",
+    "screenshots": []
+  }
+}

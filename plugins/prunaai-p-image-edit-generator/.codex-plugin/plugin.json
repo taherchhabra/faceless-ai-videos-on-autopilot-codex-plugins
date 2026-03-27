@@ -1,0 +1,43 @@
+{
+  "name": "prunaai-p-image-edit-generator",
+  "version": "0.1.0",
+  "description": "Edit images with prunaai/p-image-edit from a local script and save the outputs in the workspace.",
+  "author": {
+    "name": "Local Workspace",
+    "url": "https://replicate.com/prunaai/p-image-edit"
+  },
+  "homepage": "https://replicate.com/prunaai/p-image-edit",
+  "repository": "https://replicate.com/prunaai/p-image-edit",
+  "license": "MIT",
+  "keywords": [
+    "replicate",
+    "image-editing",
+    "prunaai",
+    "p-image-edit",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "P-Image Edit Generator",
+    "shortDescription": "Edit images with prunaai/p-image-edit",
+    "longDescription": "Use the bundled local script to edit one or more reference images with the prunaai/p-image-edit model on Replicate and save both the edited image and prediction metadata into the workspace.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://replicate.com/prunaai/p-image-edit",
+    "privacyPolicyURL": "https://replicate.com/privacy",
+    "termsOfServiceURL": "https://replicate.com/terms",
+    "defaultPrompt": [
+      "Edit a local image into a cinematic jungle action scene",
+      "Transform a product photo into a clean studio ad image",
+      "Use p-image-edit to restyle a portrait while keeping the subject"
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/replicate-small.svg",
+    "logo": "./assets/replicate-logo.svg",
+    "screenshots": []
+  }
+}
