@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Lyria 3 Song Generator logo">
+  <defs>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A73E8"/>
+      <stop offset="100%" stop-color="#34A853"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" rx="28" fill="#0F172A"/>
+  <path d="M28 70c10-24 20-24 30 0s20 24 30 0 20-24 30 0" fill="none" stroke="url(#wave)" stroke-linecap="round" stroke-width="10"/>
+  <circle cx="48" cy="40" r="6" fill="#FBBC05"/>
+  <circle cx="78" cy="26" r="6" fill="#EA4335"/>
+  <circle cx="108" cy="40" r="6" fill="#34A853"/>
+  <text x="150" y="52" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="26" font-weight="700">Lyria 3</text>
+  <text x="150" y="80" fill="#93C5FD" font-family="Arial, sans-serif" font-size="16">Song Generator</text>
+</svg>

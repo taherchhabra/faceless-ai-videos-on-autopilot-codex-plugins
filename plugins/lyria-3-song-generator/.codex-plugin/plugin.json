@@ -1,0 +1,44 @@
+{
+  "name": "lyria-3-song-generator",
+  "version": "0.1.0",
+  "description": "Generate songs with Google's Lyria 3 from a local script using a strict timestamped section-line lyric format.",
+  "author": {
+    "name": "Local Workspace",
+    "url": "https://ai.google.dev/gemini-api/docs/music-generation"
+  },
+  "homepage": "https://ai.google.dev/gemini-api/docs/music-generation",
+  "repository": "https://ai.google.dev/gemini-api/docs/music-generation",
+  "license": "MIT",
+  "keywords": [
+    "google",
+    "gemini",
+    "lyria",
+    "music-generation",
+    "song-generation",
+    "audio-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lyria 3 Song Generator",
+    "shortDescription": "Generate songs with Lyria 3 from formatted lyric sections",
+    "longDescription": "Use the bundled local script to generate full songs or short music clips with Google's Lyria 3 from strict timestamped section lines and save the audio, lyrics or structure text, and metadata into the workspace.",
+    "developerName": "Local Workspace",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://ai.google.dev/gemini-api/docs/music-generation",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://ai.google.dev/gemini-api/terms",
+    "defaultPrompt": [
+      "[00:00 - 00:12] [Intro]: Intensity: [2/10]. Lyrics: \"None\" [Warm guitar and soft synth pads.]",
+      "[00:12 - 00:30] [Verse]: Intensity: [4/10]. Lyrics: \"Headlights bloom across the lane\" [Close vocal and restrained groove.]",
+      "[00:30 - 00:48] [Chorus]: Intensity: [8/10]. Lyrics: \"City lights after rain\" [Wide synths and a cinematic lift.]"
+    ],
+    "brandColor": "#1A73E8",
+    "composerIcon": "./assets/lyria-icon.svg",
+    "logo": "./assets/lyria-logo.svg",
+    "screenshots": []
+  }
+}
